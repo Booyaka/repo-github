@@ -4,7 +4,6 @@
 до часа: <m> мин <s> сек;
 до суток: <h> час <m> мин <s> сек;
 * в остальных случаях: <d> дн <h> час <m> мин <s> сек.
-
 """
 
 duration = int(input("How many seconds do you want to spend having fun? "))
@@ -31,7 +30,8 @@ elif duration >= SEC_IN_HOUR and duration < SEC_IN_DAY:
         print("That's", result_hour, "hours", result_min - result_hour * SEC_IN_MIN, "min", result_sec, "sec")
         print("It's kind of cool!")
 elif duration >= SEC_IN_DAY:
-    print("That's", result_day, "day", result_hour - result_day * 24, "hour", result_min - result_hour * SEC_IN_MIN, "min", result_sec, "sec")
+    print("That's", result_day, "day", result_hour - result_day * 24, "hour", result_min - result_hour * SEC_IN_MIN,
+          "min", result_sec, "sec")
     print("That's huge!")
 else:
-    print("WHaaaat?") # Не успел внести сюда все варианты
+    print("WHaaaat?")  # Не успел внести сюда все варианты
