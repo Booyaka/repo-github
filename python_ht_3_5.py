@@ -28,7 +28,3 @@ adverbs = ["сегодня", "вчера", "завтра", "позавчера",
 adjectives = ["веселый", "яркий", "зеленый", "утопичный", "мягкий"]
 
 print(get_jokes())
-# r_nouns = randrange(len(nouns))
-# print(r_nouns)
-# k = nouns.remove(nouns[r_nouns])
-# print(nouns)
